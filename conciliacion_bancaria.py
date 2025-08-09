@@ -60,25 +60,26 @@ def leer_cheques_vista(path):
         df['FECHA'] = pd.to_datetime(df['FECHA MOVIMIENTO'], dayfirst=True, errors='coerce')
     return df
 
-def estado_final_cheque(nro_cheque, historial_df):
+def estado_final_cheque(_nro_cheque, historial_df: pd.DataFrame) -> str:
     """
     Devuelve el estado final del cheque según la secuencia de eventos en el extracto.
     - Si el último evento es rechazo (o devolución operativa), devuelve 'pendiente'
     - Si el último evento es cobro, devuelve 'cobrado'
     """
     if historial_df.empty:
-        return 'pendiente'
-    eventos = []
-    for _, row in historial_df.iterrows():
-        desc = str(row['DESCRIP']).upper()
-        if CHEQUE_RECHAZADO_CLEARING in desc or CHEQUE_DEV_OPERATIVO in desc:
-            eventos.append('rechazado')
-        elif ("PAGO CHEQUE" in desc) or ("CHEQUE DEP" in desc) or ("CLEARING" in desc):
-            eventos.append('cobrado')
-    if eventos:
-        return eventos[-1]  # El último evento manda
-    return 'pendiente'
+        return "pendiente"
 
+    desc = historial_df["DESCRIP"].astype(str).str.upper()
+
+    rechaz = desc.str.contains(CHEQUE_RECHAZADO_CLEARING) | desc.str.contains(CHEQUE_DEV_OPERATIVO)
+    cobrado = desc.str.contains("PAGO CHEQUE") | desc.str.contains("CHEQUE DEP") | desc.str.contains("CLEARING")
+
+    eventos = pd.Series(
+        np.where(rechaz, "rechazado", np.where(cobrado, "cobrado", None)),
+        index=historial_df.index,
+    ).dropna()
+
+    return eventos.iloc[-1] if not eventos.empty else "pendiente"
 
 def leer_cheques_diferidos(path):
     import pandas as pd
