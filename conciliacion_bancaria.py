@@ -3,6 +3,13 @@ import numpy as np
 import re
 import xlsxwriter
 
+# --- Constantes de negocio ---
+CHEQUE_DEV_OPERATIVO = CHEQUE_DEV_OPERATIVO
+CHEQUE_RECHAZADO_CLEARING = CHEQUE_RECHAZADO_CLEARING
+DATE_FMT = DATE_FMT
+LABEL_NRO_CHEQUE = LABEL_NRO_CHEQUE
+
+
 def leer_extracto(path):
     df = pd.read_excel(path, dtype=str)
     df.columns = df.columns.str.upper().str.strip()
@@ -22,7 +29,7 @@ def extraer_cheques_detallado(extracto_df):
     def buscar_nro_cheque(row):
         desc = str(row['DESCRIP']).upper()
         mov = str(row['MOVIMIENTO']) if 'MOVIMIENTO' in row else ""
-        if desc.startswith('CLEARING REC') or "CHEQUE RECHAZADO X CLEARING" in desc or "CHEQUE DEV.OPERATIVO" in desc:
+        if desc.startswith('CLEARING REC') or CHEQUE_RECHAZADO_CLEARING in desc or CHEQUE_DEV_OPERATIVO in desc:
             partes = mov.split()
             if len(partes) >= 2 and partes[1].isdigit():
                 return partes[1]
@@ -33,7 +40,7 @@ def extraer_cheques_detallado(extracto_df):
 
     def buscar_monto(row):
         desc = str(row['DESCRIP']).upper()
-        if "CHEQUE RECHAZADO X CLEARING" in desc or "CHEQUE DEV.OPERATIVO" in desc:
+        if CHEQUE_RECHAZADO_CLEARING in desc or CHEQUE_DEV_OPERATIVO in desc:
             return row['HABER']
         else:
             return row['DEBE']
@@ -64,7 +71,7 @@ def estado_final_cheque(nro_cheque, historial_df):
     eventos = []
     for _, row in historial_df.iterrows():
         desc = str(row['DESCRIP']).upper()
-        if "CHEQUE RECHAZADO X CLEARING" in desc or "CHEQUE DEV.OPERATIVO" in desc:
+        if CHEQUE_RECHAZADO_CLEARING in desc or CHEQUE_DEV_OPERATIVO in desc:
             eventos.append('rechazado')
         elif ("PAGO CHEQUE" in desc) or ("CHEQUE DEP" in desc) or ("CLEARING" in desc):
             eventos.append('cobrado')
@@ -302,7 +309,7 @@ def generar_excel_conciliacion(saldo_inicial, extracto_path, vista_path, diferid
     # Hoja Cheques Pendientes Vista ORDENADA por número de cheque
     ws2 = wb.add_worksheet("Cheques Pendientes Vista")
     ws2.write(0, 0, "Fecha de Emision", bold)
-    ws2.write(0, 1, "Nro Cheque", bold)
+    ws2.write(0, 1, LABEL_NRO_CHEQUE, bold)
     ws2.write(0, 2, "A la Orden De", bold)
     ws2.write(0, 3, "Monto", bold)
     cheques_pendientes_vista_df_ordenado = cheques_pendientes_vista_df.sort_values(by='NRO', key=lambda x: x.astype(str))
@@ -332,7 +339,7 @@ def generar_excel_conciliacion(saldo_inicial, extracto_path, vista_path, diferid
     # Hoja Cheques Pendientes Diferidos ORDENADA por número de cheque
     ws3 = wb.add_worksheet("Cheques Pendientes Diferidos")
     ws3.write(0, 0, "Fecha de Cobro", bold)
-    ws3.write(0, 1, "Nro Cheque", bold)
+    ws3.write(0, 1, LABEL_NRO_CHEQUE, bold)
     ws3.write(0, 2, "A la Orden De", bold)
     ws3.write(0, 3, "Monto", bold)
     diferidos_no_cobrados_ordenado = diferidos_no_cobrados.sort_values(by='NRO', key=lambda x: x.astype(str))
@@ -363,7 +370,7 @@ def generar_excel_conciliacion(saldo_inicial, extracto_path, vista_path, diferid
     ws4.write(0, 0, "Fecha", bold)
     ws4.write(0, 1, "Descripción", bold)
     ws4.write(0, 2, "Monto", bold)
-    ws4.write(0, 3, "Nro Cheque", bold)
+    ws4.write(0, 3, LABEL_NRO_CHEQUE, bold)
 
     cheques_no_registrados_ordenado = cheques_no_registrados.sort_values(by='NRO_CHEQUE', key=lambda x: x.astype(str))
     for i, r in cheques_no_registrados_ordenado.reset_index(drop=True).iterrows():
