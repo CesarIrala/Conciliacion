@@ -1,0 +1,144 @@
+
+
+
+
+
+
+          Parana Funcional S.A.
+                                                                                                                                             Impreso el  20/07/2025 16:07
+
+                                     Bancos - Cheques Diferidos a Vencer                                     Desde:
+                                                                                                                         01/08/2024     Hasta:       31/08/2024
+
+          Fecha                                 Fecha de                   Cuenta
+          Movimiento                            Cobro                      Afectada                                                                          Total
+                       Tipo         Estado                     Nro.                            A la Orden de
+          -----------------------------------------------------------------------------------------------------------------------------------------------------------
+           5/17/2024      che  dif      e    8/1/2024              979231      630040812205 NAMOPU A PARAGUAY S.A.                                     11.051.836,00
+           7/19/2024      che  dif      e    8/2/2024              979355      630040812205 MARTINEZ HNOS. S.R.L.                                      60.619.820,00
+           7/5/2024       che  dif      a    8/4/2024              979318      630040812205 WEMASA SA                                                           0,00
+           7/5/2024       che  dif      e    8/4/2024              979320      630040812205 WEMASA SA                                                  25.020.004,00
+           5/17/2024      che  dif      e    8/6/2024              979236      630040812205 INFINITI REPRESENTACIONES SOCIEDAD ANONIMA                 25.957.486,00
+           7/19/2024      che  dif      e    8/6/2024              979347      630040812205 N.G.O. NICOLAS GONZALEZ ODDONE SAECA                       47.596.901,00
+           7/30/2024      che  dif      e    8/6/2024              979385      630040812205 VICTOR ROA S.A.                                            16.015.846,00
+           7/19/2024      che  dif      e    8/7/2024              979356      630040812205 MARTINEZ HNOS. S.R.L.                                      59.541.595,00
+           7/19/2024      che  dif      e    8/7/2024              979363      630040812205 INDUSTRIAS GRAFICAS NOBEL S.A.                             30.573.694,00
+           7/12/2024      che  dif      e    8/8/2024              979324      630040812205 SPORT GROUP S.A.                                           22.087.929,00
+           5/16/2024      che  dif      e    8/9/2024              979215      630040812205 CALZADOS ROGER SOCIEDAD ANONIMA                             7.307.127,00
+           5/16/2024      che  dif      e    8/9/2024              979224      630040812205 LUIZ GOMES RENATO                                           9.802.250,00
+           4/26/2024      che  dif      a    8/10/2024             979293      630040812205 MARIANO AMARILLA BOGADO                                             0,00
+           6/26/2024      che  dif      e    8/10/2024             979294      630040812205 MARIANO AMARILLA BOGADO                                    44.972.374,00
+           6/28/2024      che  dif      e    8/10/2024             979305      630040812205 MARIANO AMARILLA BOGADO                                    23.376.581,00
+           7/10/2024      che  dif      e    8/10/2024             979321      630040812205 MARIANO AMARILLA BOGADO                                     6.587.273,00
+           6/17/2024      che  dif      e    8/11/2024             979269      630040812205 A. MARTINEZ E HIJOS S.A.C.                                  5.225.950,00
+           7/22/2024      che  dif      e    8/11/2024             979367      630040812205 MUNDIAL TRADING S.A.                                       37.537.205,00
+           7/4/2024       che  dif      e    8/12/2024             929307      630040812205 RIMEC S.A.                                                 13.422.726,00
+           7/19/2024      che  dif      e    8/12/2024             979357      630040812205 MARTINEZ HNOS. S.R.L.                                      59.177.153,00
+           7/19/2024      che  dif      e    8/12/2024             979364      630040812205 INDUSTRIAS GRAFICAS NOBEL S.A.                             28.542.957,00
+           7/5/2024       che  dif      e    8/13/2024             979319      630040812205 WEMASA SA                                                  25.912.968,00
+           8/8/2024       che  dif      e    8/13/2024             979392      630040812205 PROFARCO S.A.                                              32.084.805,00
+           7/25/2024      che  dif      e    8/14/2024             979373      630040812205 ALBA GABRIELA RUIZ                                          3.824.763,00
+           7/26/2024      che  dif      e    8/14/2024             979379      630040812205 PABLO RAFAEL FERNANDEZ VAZQUEZ                             57.359.586,00
+           6/14/2024      che  dif      e    8/15/2024             979267      630040812205 CHAPARRO GEORGGES MABEL ELIZABETH                          24.343.473,00
+           8/1/2024       che  dif      e    8/15/2024             979386      630040812205 GIMENEZ DE SALDIVAR HERMINIA                               39.827.782,00
+           8/9/2024       che  dif      e    8/15/2024             979398      630040812205 AMARILLA BEDOYA FEDERICO YSAAC                             18.955.702,00
+           8/9/2024       che  dif      e    8/15/2024             979399      630040812205 AMARILLA BEDOYA FEDERICO YSAAC                             23.885.131,00
+           1/1/2024       che  dif      a    8/16/2024             979368      630040812205 MUNDIAL TRADING S.A.                                                0,00
+           7/22/2024      che  dif      e    8/16/2024             979384      630040812205 MUNDIAL TRADING S.A.                                       26.043.751,00
+           8/9/2024       che  dif      e    8/16/2024             979396      630040812205 FRIGORIFICO CONCEPCION S.A.                                12.602.160,00
+           8/9/2024       che  dif      e    8/16/2024             979400      630040812205 ALAMO S.A.                                                  6.566.882,00
+           7/19/2024      che  dif      e    8/17/2024             979358      630040812205 MARTINEZ HNOS. S.R.L.                                      58.980.843,00
+           7/19/2024      che  dif      e    8/17/2024             979365      630040812205 INDUSTRIAS GRAFICAS NOBEL S.A.                             28.795.742,00
+           8/9/2024       che  dif      e    8/18/2024             979397      630040812205 GRUPO REMAX SOCIEDAD ANÓNIMA                               27.416.902,00
+           7/19/2024      che  dif      e    8/19/2024             979341      630040812205 IMPORTADORA EL MEJOR S.A.                                  70.068.514,00
+           5/25/2024      che  dif      a    8/20/2024             979107      630040812205 FINANCIERA PARAGUAYO JAPONESA  SAECA                                0,00
+           5/25/2024      che  dif      e    8/20/2024             979123      630040812205 FINANCIERA PARAGUAYO JAPONESA  SAECA                       90.538.794,00
+           6/24/2024      che  dif      e    8/20/2024             979280      630040812205 FINANCIERA PARAGUAYO JAPONESA  SAECA                       90.551.715,00
+           5/30/2024      che  dif      e    8/21/2024             979251      630040812205 CALZADOS ROGER SOCIEDAD ANONIMA                             9.990.687,00
+           7/22/2024      che  dif      e    8/21/2024             979366      630040812205 INDUSTRIAS REUNIDAS ÑEMBY S.A.                             30.559.200,00
+           7/19/2024      che  dif      e    8/22/2024             979359      630040812205 MARTINEZ HNOS. S.R.L.                                      65.493.201,00
+           8/23/2024      che  dif      a    8/23/2024             485530      630040812205 LOURDES NOELIA GUILLEN BRITEZ                                       0,00
+           7/22/2024      che  dif      e    8/23/2024             979369      630040812205 MUNDIAL TRADING S.A.                                       37.189.552,00
+           7/26/2024      che  dif      e    8/24/2024             979380      630040812205 PABLO RAFAEL FERNANDEZ VAZQUEZ                             53.065.506,00
+           8/16/2024      che  dif      e    8/24/2024             979406      630040812205 CUATRO ESTACIONES E.A.S.                                   25.789.830,00
+           4/15/2024      che  dif      e    8/25/2024             979179      630040812205 LUIZ GOMES RENATO                                          13.491.927,00
+           6/28/2024      che  dif      e    8/25/2024             979301      630040812205 A. MARTINEZ E HIJOS S.A.C.                                  3.063.723,00
+                                                                                                                                               1  de 2
+
+
+
+
+
+
+
+
+
+
+
+
+          Parana Funcional S.A.
+                                                                                                                                               Impreso el  20/07/2025 16:07
+
+                                      Bancos - Cheques Diferidos a Vencer                                     Desde:
+                                                                                                                          01/08/2024     Hasta:        31/08/2024
+
+          Fecha                                 Fecha de                    Cuenta
+          Movimiento                            Cobro                       Afectada                                                                           Total
+                       Tipo         Estado                      Nro.                            A la Orden de
+          -------------------------------------------------------------------------------------------------------------------------------------------------------------
+           7/19/2024      che  dif      e    8/26/2024              979360      630040812205 MARTINEZ HNOS. S.R.L.                                       59.097.553,00
+           6/26/2024      che  dif      e    8/28/2024              979292      630040812205 CALZADOS ROGER SOCIEDAD ANONIMA                             23.846.214,00
+           7/4/2024       che  dif      e    8/29/2024              929309      630040812205 RIMEC S.A.                                                   7.834.241,00
+           5/16/2024      che  dif      e    8/29/2024              979229      630040812205 LOOK FASHION S.A.                                           11.144.666,00
+           7/15/2024      che  dif      e    8/29/2024              979331      630040812205 MARIANO AMARILLA BOGADO                                     16.740.174,00
+           7/19/2024      che  dif      e    8/30/2024              979361      630040812205 MARTINEZ HNOS. S.R.L.                                       66.179.176,00
+           6/3/2024       che  dif      e    8/31/2024              979261      630040812205 COMERCIAL CDE S.A.                                          33.598.459,00
+           7/26/2024      che  dif      e    8/31/2024              979381      630040812205 PABLO RAFAEL FERNANDEZ VAZQUEZ                              53.232.768,00
+                                                         Total de Cheques                             57                                               1.682.493.097,0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                2  de 2
+
+
+
+
+
+
